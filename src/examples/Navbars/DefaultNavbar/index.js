@@ -551,7 +551,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
 
 // Setting default values for the props of DefaultNavbar
 DefaultNavbar.defaultProps = {
-  brand: "Material Kit 2",
+  brand: "Victoria Education",
   transparent: false,
   light: false,
   action: false,
@@ -562,7 +562,7 @@ DefaultNavbar.defaultProps = {
 
 // Typechecking props for the DefaultNavbar
 DefaultNavbar.propTypes = {
-  brand: PropTypes.string,
+  brand: "Victoria Education",
   routes: PropTypes.arrayOf(PropTypes.shape).isRequired,
   transparent: PropTypes.bool,
   light: PropTypes.bool,

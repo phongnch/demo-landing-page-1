@@ -1,8 +1,6 @@
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import YouTubeIcon from "@mui/icons-material/YouTube";
 
 // Material Kit 2 React components
 import MKTypography from "components/MKTypography";
@@ -14,76 +12,53 @@ const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "Material Kit 2",
+    name: "Victoria Education",
     image: logoCT,
     route: "/",
   },
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: "https://www.facebook.com/huongly.ams77",
     },
     {
       icon: <TwitterIcon />,
-      link: "https://twitter.com/creativetim",
-    },
-    {
-      icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
-    },
-    {
-      icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+      link: "https://www.facebook.com/huongly.ams77",
     },
   ],
   menus: [
     {
       name: "company",
-      items: [
-        { name: "about us", href: "https://www.creative-tim.com/presentation" },
-        { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
-        { name: "premium tools", href: "https://www.creative-tim.com/templates/premium" },
-        { name: "blog", href: "https://www.creative-tim.com/blog" },
-      ],
+      items: [{ name: "about us", href: "/pages/landing-pages/about-us" }],
     },
     {
       name: "resources",
-      items: [
-        { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
-        { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
-      ],
+      items: [],
     },
     {
       name: "help & support",
-      items: [
-        { name: "contact us", href: "https://www.creative-tim.com/contact-us" },
-        { name: "knowledge center", href: "https://www.creative-tim.com/knowledge-center" },
-        { name: "custom development", href: "https://services.creative-tim.com/" },
-        { name: "sponsorships", href: "https://www.creative-tim.com/sponsorships" },
-      ],
+      items: [{ name: "contact us", href: "/pages/landing-pages/contact-us" }],
     },
     {
       name: "legal",
       items: [
-        { name: "terms & conditions", href: "https://www.creative-tim.com/terms" },
-        { name: "privacy policy", href: "https://www.creative-tim.com/privacy" },
-        { name: "licenses (EULA)", href: "https://www.creative-tim.com/license" },
+        { name: "terms & conditions", href: "https://www.facebook.com/huongly.ams77" },
+        { name: "privacy policy", href: "https://www.facebook.com/huongly.ams77" },
       ],
     },
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
+      All rights reserved. Copyright &copy; {date} Design by{" "}
       <MKTypography
         component="a"
-        href="https://www.creative-tim.com"
+        href="https://www.facebook.com/simpleToSpecial99/"
         target="_blank"
         rel="noreferrer"
         variant="button"
         fontWeight="regular"
       >
-        Creative Tim
+        Hoàng Phong
       </MKTypography>
       .
     </MKTypography>
