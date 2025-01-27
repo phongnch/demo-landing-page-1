@@ -19,23 +19,23 @@ const imagesPrefix =
 export default [
   {
     image: `${imagesPrefix}/about-us.jpg`,
-    name: "About Us Page",
+    name: "Listening",
     route: "/pages/landing-pages/about-us",
   },
   {
     image: `${imagesPrefix}/contact.jpg`,
-    name: "Contact Us Page",
+    name: "Speaking",
     route: "/pages/landing-pages/contact-us",
   },
   {
     image:
       "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/signin-basic.jpg",
-    name: "Sign In Page",
+    name: "Writing",
     route: "/pages/authentication/sign-in",
   },
   {
     image: `${imagesPrefix}/author.jpg`,
-    name: "Author Page",
+    name: "Reading",
     route: "/pages/landing-pages/author",
   },
 ];

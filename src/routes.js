@@ -9,12 +9,32 @@ import ContactUs from "layouts/pages/landing-pages/contact-us";
 
 const routes = [
   {
-    name: "about us",
+    name: "Classes",
     route: "/pages/landing-pages/about-us",
     component: <AboutUs />,
   },
   {
-    name: "contact us",
+    name: "Practice Tests",
+    route: "/pages/landing-pages/about-us",
+    component: <AboutUs />,
+  },
+  {
+    name: "Materials",
+    route: "/pages/landing-pages/about-us",
+    component: <AboutUs />,
+  },
+  {
+    name: "Courses & Registers",
+    route: "/pages/landing-pages/about-us",
+    component: <AboutUs />,
+  },
+  {
+    name: "Events",
+    route: "/pages/landing-pages/about-us",
+    component: <AboutUs />,
+  },
+  {
+    name: "Contacts",
     route: "/pages/landing-pages/contact-us",
     component: <ContactUs />,
   },
